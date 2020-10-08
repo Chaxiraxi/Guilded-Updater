@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Minecraft Updater
+Encoding=UTF-8
+Exec=sudo minecraft-updater --gui
+Icon=minecraft-updater.png
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=game
+Comment=Outil de mise à jour pour Minecraft

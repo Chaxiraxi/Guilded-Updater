@@ -1,0 +1,8 @@
+Package: minecraft-updater
+Version: 1.0
+Architecture: amd64
+Maintainer: Chaxiraxi <ChaxiraxiCH@protonmail.com>
+Description: Unofficial Minecraft Launcher updater
+Homepage: https://minecraft.net/
+Pre-Depends: apt, wget, minecraft-launcher, sudo, zenity
+Copyright: Open Source
