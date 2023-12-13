@@ -6,5 +6,5 @@ Icon=discord-updater.png
 StartupNotify=false
 Terminal=true
 Type=Application
-Categories=game
+Categories=Application;System;
 Comment=Outil de mise à jour pour Discord
