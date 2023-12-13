@@ -1,2 +1,2 @@
-# Minecraft-Updater
-Petit programme pour Debian qui met à jour le Minecraft Launcher Officiel
+# Discord-Updater
+Petit programme pour Debian qui met à jour le client Discord Officiel
