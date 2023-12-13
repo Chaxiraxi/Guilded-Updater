@@ -1,8 +1,8 @@
-Package: minecraft-updater
+Package: discord-updater
 Version: 1.0
 Architecture: amd64
 Maintainer: Chaxiraxi <ChaxiraxiCH@protonmail.com>
-Description: Unofficial Minecraft Launcher updater
-Homepage: https://minecraft.net/
+Description: Unofficial Discord client updater
+Homepage: https://github.com/Chaxiraxi/Discord-Updater/
 Pre-Depends: apt, wget, zenity
-Copyright: Open Source
+Copyright: Apache License 2.0

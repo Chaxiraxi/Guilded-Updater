@@ -1,10 +1,10 @@
 [Desktop Entry]
-Name=Minecraft Updater
+Name=Discord Updater
 Encoding=UTF-8
-Exec=sudo minecraft-updater --gui
-Icon=minecraft-updater.png
+Exec=sudo discord-updater --gui
+Icon=discord-updater.png
 StartupNotify=false
 Terminal=true
 Type=Application
 Categories=game
-Comment=Outil de mise à jour pour Minecraft
+Comment=Outil de mise à jour pour Discord

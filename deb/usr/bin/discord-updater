@@ -8,10 +8,10 @@ fi
 update()
 {
 	cd /tmp/
-	rm Minecraft.deb > /dev/null 2>&1
-	wget https://launcher.mojang.com/download/Minecraft.deb /tmp/Minecraft.deb
-	apt install /tmp/Minecraft.deb -y
-	rm Minecraft.deb > /dev/null 2>&1
+	rm discord.deb > /dev/null 2>&1
+	wget https://discord.com/api/download?platform=linux&format=deb /tmp/discord.deb
+	apt install /tmp/discord.deb -y
+	rm discord.deb > /dev/null 2>&1
 }
 
 if [ $1 = "--gui" ]
