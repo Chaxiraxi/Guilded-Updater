@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Guilded Updater
+Encoding=UTF-8
+Exec=sudo guilded-updater --gui
+Icon=guilded-updater.png
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=Application;System;
+Comment=Outil de mise à jour pour Guilded

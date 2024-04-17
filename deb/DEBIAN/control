@@ -1,8 +1,8 @@
-Package: discord-updater
+Package: guilded-updater
 Version: 1.0
 Architecture: amd64
 Maintainer: Chaxiraxi <ChaxiraxiCH@protonmail.com>
-Description: Unofficial Discord client updater
-Homepage: https://github.com/Chaxiraxi/Discord-Updater/
+Description: Unofficial Guilded client updater
+Homepage: https://github.com/Chaxiraxi/Guilded-Updater/
 Pre-Depends: apt, wget, zenity
 Copyright: Apache License 2.0

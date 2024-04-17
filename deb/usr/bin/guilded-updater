@@ -8,15 +8,15 @@ fi
 update()
 {
 	cd /tmp/
-	rm discord.deb > /dev/null 2>&1
+	rm guilded.deb > /dev/null 2>&1
 
 	# Téléchargement du fichier en vérifiant les redirections afin d'avoir la dernière version
-	wget -L --max-redirect=20 "https://discord.com/api/download?platform=linux&format=deb" -O /tmp/discord.deb
+	wget -L --max-redirect=20 "https://www.guilded.gg/downloads/Guilded-Linux.deb" -O /tmp/guilded.deb
 
 	# Vérification du téléchargement, installation le cas échéant
 	if [ $? -eq 0 ]; then
-		apt install /tmp/discord.deb -y
-		rm discord.deb > /dev/null 2>&1
+		apt install /tmp/guilded.deb -y
+		rm guilded.deb > /dev/null 2>&1
 	else
 		echo "Erreur lors du téléchargement du fichier"
 	fi
